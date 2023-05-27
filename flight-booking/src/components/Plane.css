@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor:wght@500;700&family=Spartan:wght300;400;500&display=swap");
+
+.mainText{
+    background-color: rgb(243, 243, 249);
+}
+.flex {
+    display: grid;
+    align-items: center;
+
+}
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+video {
+  
+     width: 90%;
+    height: 10%;
+
+    
+}
+
+ img{
+   
+   position: absolute;
+ padding-top: 50%;
+ padding-left: 15%;
+    height: auto;
+
+  
+
+ }
+  
+.home{
+  padding-top: 10rem;
+  background-color: rgb(241, 228, 237);
+  text-align: center;
+  gap: 2rem;
+  flex-direction: block;
+  /* white-space: nowrap; */
+
+  .mainText{
+      color: var(--blackColor);
+      font-weight:700;
+      font-size: 15px;
+      line-height: 2.5rem;
+
+  }
+
+  .homeImages{
+      width: 100%;
+      margin: 1rem auto 0;
+      justify-content: center;
+      position: flex;
+      border-radius: 5rem;
+
+      .videoDiv{
+          width: 100%;
+          .video{
+              border-radius: 8rem;
+          }
+      }
+      .plane{
+          position:absolute;
+     padding-top: 30%;
+     padding-left: 25%;         
+     width: 80%;
+          top :-10%;
+          
+      }
+
+  }
+
+}
