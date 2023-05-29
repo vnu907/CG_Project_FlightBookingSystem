@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 
-function About() {
+const About=()=> {
   return (<>
     <Navbar/>
     <div>About</div>

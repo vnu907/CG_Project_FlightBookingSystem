@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import { Routes ,Route } from "react-router-dom";
 import SignIn from "./routes/SignIn";
 import About from "./routes/About";
+import FlightForm from "./components/FlightForm";
 // import SearchForm from "./components/SearchForm";
 
 
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Plane/>
+      <FlightForm/>
       
     
       <Footer/>
