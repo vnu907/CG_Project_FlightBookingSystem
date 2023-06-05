@@ -26,7 +26,7 @@ LET YOUR DREAMS TAKE FLIGHT
           <video src={video} autoPlay muted loop className='video'></video>
           
              </div>
-             <img src={aeroplane} className='plane' />
+             <img src={aeroplane} className='plane' alt='plane' />
       </div>
     </div>
     </>

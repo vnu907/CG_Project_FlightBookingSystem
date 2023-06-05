@@ -27,12 +27,13 @@ import Navbar from "./components/Navbar";
 import AdminDashboard from "./components/AdminDashboard.jsx";
 import AdminLogin from "./components/AdminLogin.jsx";
 
-import FlightDetailsPage from "./components/FlightDetailsPage.js";
-import FlightForm from "./components/FlightForm.jsx";
+
+
 
 class App extends Component {
   render() {
-    return (
+    return (<>
+      <SearchForm/>
       <Router>
         <div className="App">
           <Routes>
@@ -48,11 +49,7 @@ class App extends Component {
             <Route path="/Upi1" exact Component={Upi1} />
             <Route path="/Success1" exact Component={Success1} />
             <Route path="/SearchForm" exact Component={SearchForm} />
-            <Route
-              path="/FlightDetailsPage"
-              exact
-              Component={FlightDetailsPage}
-            />
+            
 
             <Route path="/start" Component={start} />
             <Route path="/Home" Component={Home} />
@@ -63,6 +60,7 @@ class App extends Component {
           </Routes>
         </div>
       </Router>
+      </>
     );
   }
 }
