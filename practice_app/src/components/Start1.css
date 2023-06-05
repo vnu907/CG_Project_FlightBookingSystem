@@ -1,0 +1,36 @@
+.startmain {
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100%;
+  background-image: url(background.avif);
+  text-align: center;
+}
+.startli {
+  margin-top: 20px;
+  margin-left: 120px;
+}
+.startbox {
+  text-align: left;
+  padding: 20px;
+  width: 350px;
+  height: 200px;
+  position: absolute;
+  left: 470px;
+  top: 150px;
+  border-radius: 10px;
+  border: 1px solid rgb(121, 118, 118);
+  background-color: rgba(35, 37, 39, 0.178);
+}
+.starth1 {
+  font-size: 25px;
+  color: blue;
+}
+.starta {
+  color: rgb(9, 10, 10);
+  font-style: normal;
+  text-decoration: none;
+}
+.starta:hover {
+  cursor: pointer;
+  color: green;
+}

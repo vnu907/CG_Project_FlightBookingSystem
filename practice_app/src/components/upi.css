@@ -1,0 +1,56 @@
+.upibody {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.contaner {
+  width: 1370px;
+  height: 660px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(background.avif);
+}
+.upiPaymentBox {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  left: 470px;
+  top: 100px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(121, 118, 118);
+  background-color: rgba(35, 37, 39, 0.178);
+}
+.upiform {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.upifieldset {
+  display: flex;
+  border: none;
+}
+.h4 {
+  color: black;
+  margin-top: 35px;
+}
+.upiinput {
+  text-align: center;
+  height: 30px;
+  margin-top: 30px;
+  width: 200px;
+  border-radius: 5px;
+}
+.upibutton {
+  width: 75px;
+  height: 30px;
+  background-color: #171614;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.upibutton:focus {
+  background-color: green;
+}
